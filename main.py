@@ -12,7 +12,7 @@ class WorkerThread(threading.Thread):
     def run(self):
         print self.getName(), "started!"
         self.f(nth_fibonacci_term)
-        print self.getName(), "finished"
+        print self.getName(), "finished!"
 
     def f(self, n):
         if n < 2:
